@@ -11,7 +11,7 @@ import {
   CryptoHistory,
   ForbesList,
 } from 'components';
-import Example from 'components/example/Example';
+import Example from 'components/Example/Example';
 
 export const App = () => {
   return (
