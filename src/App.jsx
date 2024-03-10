@@ -9,6 +9,7 @@ import {
   CryptoHistory,
   ForbesList,
 } from 'components';
+import Example from 'components/example/Example';
 
 export const App = () => {
   return (
@@ -31,6 +32,7 @@ export const App = () => {
         <ForbesList />
         <Heading title="Task 4 Crypto history" top bottom />
         <CryptoHistory />
+        <Example />
       </Container>
     </Section>
   );
