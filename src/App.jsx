@@ -1,4 +1,6 @@
 import article from 'data/article.json';
+import stats from './data/stats.json';
+import forbesData from './data/forbes.json';
 
 import {
   Section,
@@ -25,11 +27,10 @@ export const App = () => {
           avatar={article.avatar}
           postedAt={article.postedAt}
         />
-        ;
         <Heading title="Task 2 Statistics" top bottom />
-        <Statistics title="Main Statistics" />
+        <Statistics title="Main Statistics" stats={stats} />
         <Heading title="Task 3 Forbes list" top bottom />
-        <ForbesList />
+        <ForbesList list={forbesData} />
         <Heading title="Task 4 Crypto history" top bottom />
         <CryptoHistory />
         <Example />
